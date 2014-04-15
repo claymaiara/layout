@@ -13,20 +13,19 @@
 
 		<nav class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse"
-					data-target="navbar-collapse">
-					<span class="sr-only">Toggle navigation</span> <span
-						class="icon-bar"></span> <span class="icon-bar"></span> <span
-						class="icon-bar"></span>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
 				</button>
 				
 				<div class="btn-group">
 					<button class="btn btn-default btn-lg">
-						<span class="glyphicon glyphicon-th-large"></span> Ceadis
+						<span class="glyphicon glyphicon-th-large"></span> Ceadis 
 					</button>
-					<button data-toggle="dropdown"
-						class="btn btn-default btn-lg dropdown-toggle">
-						<span class="caret"></span>
+					<button data-toggle="dropdown" class="btn btn-default btn-lg dropdown-toggle">
+						<span class="glyphicon glyphicon-arrow-down"></span>
 					</button>
 					<ul class="dropdown-menu">
 						<li><a href="#">Action</a></li>
@@ -36,13 +35,14 @@
 					</ul>
 				</div>
 				
+			</div>	
 				
-			</div>
+
 
 			<div class="nav navbar-left collapse navbar-collapse">
 				<p class="navbar-text">SGP - SISTEMA DE GESTAO PORTARIA</p>
 			</div>
-			<div class="nav navbar-right collapse navbar-collapse">
+			<div class="nav navbar-right collapse navbar-collapse" id="navbar-collapse-1">
 				<button class="btn btn-default btn-lg ">
 					<span class="glyphicon glyphicon-off"></span> Sair
 				</button>
@@ -102,7 +102,7 @@
   
   <div class="col-xs-6">
 		 <form class="form-horizontal" role="form">
-			  <div class="form-group col-xs-4 col-sm-4">
+			  <div class="form-group col-xs-4 col-sm-4 col-md-4 col-lg-4">
 			    <label class="sr-only" for="exampleInputEmail2">Email address</label>
 			    <input type="date" class="form-control" id="exampleInputEmail2" placeholder="data">
 			  </div>
@@ -291,19 +291,31 @@
 
 
 	<footer>
-
-
-		<nav class="navbar navbar-default navbar-fixed-bottom"
-			role="navigation">
+		<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+		
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#este">
+					<span class="sr-only">Toggle navigation</span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span> 
+					<span class="icon-bar"></span>
+			</button>
+		
+		
 			<p class="navbar-text">..: SGA - Sistema de Gestão de Atividades
 				[Tecnologia da Informação] :..</p>
-							<div class="nav navbar-right collapse navbar-collapse">
-				<button class="btn btn-default btn-lg">
-					<span class="glyphicon glyphicon-user"></span> Usuário
-				</button>
-			</div>
+
+		</div>
+		<div class="nav navbar-right collapse navbar-collapse" id="este">
+			<button class="btn btn-default btn-lg">
+				<span class="glyphicon glyphicon-user"></span> Usuário
+			</button>
+		</div>
+		
+					
 		</nav>
 		<nav class="navbar navbar-default" role="navigation"></nav>
+			
 	</footer>
 
 </div>
