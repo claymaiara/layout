@@ -1540,6 +1540,8 @@ table th[class*="col-"] {
 .table > tbody > tr.info > th,
 .table > tfoot > tr.info > th {
   background-color: #5D81B1;
+  color: #fff;
+  
 }
 .table-hover > tbody > tr > td.info:hover,
 .table-hover > tbody > tr > th.info:hover,
@@ -4975,8 +4977,8 @@ a.list-group-item-danger.active:focus {
 }
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #428bca;
-  border-color: #428bca;
+  background-color: #5d81b1;
+  border-color: #5d81b1;
 }
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
   border-top-color: #428bca;
