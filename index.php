@@ -111,25 +111,23 @@
 			</div>
 			<div class="panel-body">
 		
-				<form class="form-inline" role="form">
+				<form class="form-horizontal" role="form">
 
 				<div class="form-group">
-				    <label for="inputEmail3" class="sr-only">Email</label>
-				    <div class="col-sm-4">
+				
+				    <div class="col-sm-3">
+				      <label for="inputEmail3">Email</label>
 				      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
 				    </div>
-				  </div>
 				
-				  <div class="form-group">
-				    <label for="inputPassword3" class="sr-only">Password</label>
-				    <div class="col-sm-4">
+				<div class="col-sm-4">
+				   <label for="inputPassword3">Password</label>
 				      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
 				    </div>
-				  </div>
 				  
-				  <div class="form-group">
-			    	<label for="" class="col-sm-4">Selecione</label>				        
-				    <div class="col-sm-4">
+				  
+				  <div class="col-sm-4">
+			    	<label for="" >Selecione</label>				        
 						<select class="form-control">
 						  <option></option>
 						  <option>allsjh</option>
@@ -138,14 +136,14 @@
 						  <option>4</option>
 						  <option>5</option>
 						</select>	
-				    </div>
 				  </div>
 				  
+			  </div>
 				  
 							  
 				  
 				  <div class="form-group">
-				    <div class="col-sm-offset-1 col-sm-1">
+				    <div class="col-sm-12">
 				      <button type="submit" class="btn btn-primary">
 				      	<span class="glyphicon glyphicon-search"></span> Pesquisar
 				      </button>
