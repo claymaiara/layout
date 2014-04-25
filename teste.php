@@ -34,7 +34,7 @@
 	</nav>
 	<nav class="navbar navbar-default" role="navigation"></nav>
 	
-	 <div class="container-fluid">
+	 <div class="container well">
 	 <div class="jumbotron"> 
 		<a class="btn btn-primary btn-large" href="#">Learn more</a>
 	</div>
