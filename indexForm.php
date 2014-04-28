@@ -194,7 +194,7 @@
 					</button>
 
 
-					<p class="navbar-text">..: SGA - Sistema de Gestão de Atividades
+					<p class="navbar-text">..: SGP - Sistema De Gestão Portaria
 						[Tecnologia da Informação] :..</p>
 
 				</div>
