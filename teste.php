@@ -39,10 +39,6 @@
 		<a class="btn btn-primary btn-large" href="#">Learn more</a>
 	</div>
 	</div>
-	
-	
-	
-
 </body>
 </html>
 
