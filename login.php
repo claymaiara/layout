@@ -39,7 +39,7 @@
 				</div>
 			</div>
 			<div class="panel-heading panel-title">
-				 Tecnologia da Informação - Ceadis
+				 ..:: Tecnologia da Informação - Ceadis ::..
 			</div>
 		</div>
 
